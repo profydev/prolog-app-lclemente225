@@ -3,10 +3,13 @@
 
 .listItem {
   height: space.$s12;
+  height: 40px;
   display: flex;
   align-items: center;
   margin-top: space.$s1;
+  margin: 0.418rem 0;
   padding: space.$s0 space.$s3;
+  padding: 0.25rem 0.75rem;
   background: transparent;
   border-radius: 6px;
 }
@@ -18,6 +21,7 @@
 .listItem:first-child {
   margin-top: 0;
 }
+
 
 .anchor {
   display: flex;

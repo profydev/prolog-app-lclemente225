@@ -6,7 +6,7 @@ describe("Sidebar Navigation", () => {
   context("desktop resolution", () => {
     beforeEach(() => {
       cy.viewport(1025, 900);
-    });
+    }); 
 
     it("links are working", () => {
       // check that each link leads to the correct page
@@ -92,4 +92,5 @@ describe("Sidebar Navigation", () => {
       isNotInViewport("nav");
     });
   });
+
 });

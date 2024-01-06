@@ -129,13 +129,17 @@
 
 .linkList {
   composes: list;
-  flex: 1;
+  flex: 1;  
 }
 
 .collapseMenuItem {
   display: none;
-
+  
   @media (min-width: breakpoint.$desktop) {
     display: flex;
   }
+  .collapsedMenuButton {
+    transform: rotate(180deg);
+  }
 }
+
