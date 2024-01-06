@@ -7,8 +7,7 @@
   display: flex;
   align-items: center;
   margin: 0.418rem 0;
-  padding: space.$s0 space.$s3;
-  padding: 0.25rem 0.75rem;
+  padding: space.$s1 space.$s3;
   background: transparent;
   border-radius: 6px;
 }
@@ -20,7 +19,6 @@
 .listItem:first-child {
   margin-top: 0;
 }
-
 
 .anchor {
   display: flex;
